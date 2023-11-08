@@ -16,7 +16,7 @@ namespace Attendance_API.Repository
                     cmd.Parameters.AddWithValue("@date", Convert.ToDateTime(studentAttendance.ConductedClassDate).Date);
                     cmd.Parameters.AddWithValue("@time", Convert.ToDateTime(studentAttendance.ConductedTime).TimeOfDay);
                     //cmd.Parameters.AddWithValue("@date", Convert.ToDateTime(studentAttendance.ConductedClassDate));
-                    //cmd.Parameters.AddWithValue("@time", Convert.ToDateTime(studentAttendance.ConductedTime));
+                    //cmd.Parameters.AddWithValue("@time", Convert.ToDateTime(studentAttendance.ConductedTime)) ;
                     cmd.Parameters.AddWithValue("@trainer_id", Convert.ToInt32(studentAttendance.Trainer_Id));
                     cmd.Parameters.AddWithValue("@subject_id", Convert.ToInt32(studentAttendance.Subject_Id));
                     cmd.Parameters.AddWithValue("@topic_id", Convert.ToInt32(studentAttendance.Topic_Id));

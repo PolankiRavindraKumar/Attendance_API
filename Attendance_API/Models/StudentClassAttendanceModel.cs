@@ -13,14 +13,6 @@ namespace Attendance_API.Models
         public int Topic_Id { get; set; }
         public List<int>? AttendedStudents { get; set; }
         public int SerialNo { get; set; }
-        public int Student_Id { get; set;}
-
-
-            
-
-
-
-
-
+        public int Student_Id { get; set;}         
     }
 }
